@@ -1,16 +1,20 @@
-### Hi there 👋
+<p align="center">
+  <img src="https://media.tenor.com/GfSX-u7VGM4AAAAC/coding.gif" />
+</p>
 
-<!--
-**huseynaghah/huseynaghah** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```js
+import SoftwareDeveloper from 'huseynaghah';
 
-Here are some ideas to get you started:
+class Bio extends SoftwareDeveloper {
+  name     = 'Huseynagha Hagverdiev';
+  title    = 'Software Engineer';
+  location = 'Baku, AZ';
+}
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+class Skills extends SoftwareDeveloper {
+  languages  = ['JavaScript', 'NodeJS'];
+  databases  = ['MsSQL', 'MongoDB'];
+  frameworks = ['React', 'ExpressJS'];
+}
+```
+----
